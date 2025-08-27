@@ -1,0 +1,24 @@
+.card {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 2px lightgray;
+  margin-inline: auto;
+  overflow: hidden;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.description {
+  padding-inline: 12px;
+}
+.description h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+.description p {
+  text-align: justify;
+}
