@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.userProfile {
+  max-width: 300px;
+  padding: 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  margin-inline: auto;
+  margin-block: 20px;
+  border-radius: 10px;
+}
+.userProfile > img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.userProfileInfo {
+  text-align: center;
+}
+.userProfileInfo > h3 {
+  color: rgb(28, 160, 212);
+}
+.userProfileInfo > p:last-child {
+  color: rgb(4, 191, 4);
+  font-size: 18px;
+  font-weight: 600;
+}
+#profile-bio {
+  margin-block: 10px;
+}
