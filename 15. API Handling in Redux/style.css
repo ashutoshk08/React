@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container {
+  display: flex;
+  margin: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.card {
+  max-width: 270px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.card > img {
+  display: block;
+  width: 100%;
+}
+.card-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+  margin-block: 10px;
+}
+.card-info > h3:nth-child(2) {
+  color: green;
+}
